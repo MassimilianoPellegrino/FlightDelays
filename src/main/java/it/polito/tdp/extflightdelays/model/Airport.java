@@ -120,8 +120,8 @@ public class Airport {
 	}
 
 	@Override
-	public String toString() {
-		return "Airport [id=" + id + ", iataCode=" + iataCode + ", airportName=" + airportName + "]";
+	public String toString() {	
+		return this.airportName;	
 	}
 	
 }
